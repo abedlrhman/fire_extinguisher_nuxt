@@ -6,7 +6,9 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto
         illum quidem asperiores, cum nisi aperiam eius ipsa sapiente odit!
       </p>
-      <button class="button btn">Start Looking</button>
+      <nuxt-link to="/products">
+        <button class="button btn">Start Looking</button>
+      </nuxt-link>
     </div>
     <img
       src="@/assets/svg/fire-extinguisher.svg"
@@ -24,7 +26,6 @@ export default {
 
 <style scoped>
 .hero {
-  /* height: 50vh; */
   position: relative;
   display: flex;
   padding: 5rem 0;
