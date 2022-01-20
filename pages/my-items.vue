@@ -1,11 +1,11 @@
 <template>
-  <div class="container">
-    <NuxtLink to="/">Go Back</NuxtLink>
-  </div>
+  <div class="container"></div>
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'no-nav',
+}
 </script>
 
 <style scoped>
